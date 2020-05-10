@@ -1,2 +1,2 @@
 github "ReactiveX/RxSwift" ~> 5.0
-github "RxSwiftCommunity/RxDatasources"
+git "https://DaveDude/RxDatasources.git" "master"
