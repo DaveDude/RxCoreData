@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		123208D624689E7100603C1A /* ManagedObjectContextNotificationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123208D424689E7100603C1A /* ManagedObjectContextNotificationObserver.swift */; };
+		123208DC24689F2200603C1A /* NSManagedObjectContext+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123208DB24689F2200603C1A /* NSManagedObjectContext+Extensions.swift */; };
+		123208DD2468A03600603C1A /* ManagedObjectContextNotificationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123208D424689E7100603C1A /* ManagedObjectContextNotificationObserver.swift */; };
+		123208DE2468A03700603C1A /* ManagedObjectContextNotificationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123208D424689E7100603C1A /* ManagedObjectContextNotificationObserver.swift */; };
+		123208DF2468A03800603C1A /* ManagedObjectContextNotificationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123208D424689E7100603C1A /* ManagedObjectContextNotificationObserver.swift */; };
 		5A017DD41D7D6F560027384A /* RxCoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A017DD31D7D6F560027384A /* RxCoreData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5A2FAD551D7D6F73007DECCB /* FetchedResultsControllerControllerEntityObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2FAD501D7D6F73007DECCB /* FetchedResultsControllerControllerEntityObserver.swift */; };
 		5A2FAD561D7D6F73007DECCB /* FetchedResultsControllerSectionObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2FAD511D7D6F73007DECCB /* FetchedResultsControllerSectionObserver.swift */; };
@@ -38,6 +43,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		123208D424689E7100603C1A /* ManagedObjectContextNotificationObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagedObjectContextNotificationObserver.swift; sourceTree = "<group>"; };
+		123208DB24689F2200603C1A /* NSManagedObjectContext+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+Extensions.swift"; sourceTree = "<group>"; };
 		5A017DD01D7D6F550027384A /* RxCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A017DD31D7D6F560027384A /* RxCoreData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxCoreData.h; sourceTree = "<group>"; };
 		5A017DD51D7D6F560027384A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -103,6 +110,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		123208DA24689F2200603C1A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				123208DB24689F2200603C1A /* NSManagedObjectContext+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		5A017DC61D7D6F550027384A = {
 			isa = PBXGroup;
 			children = (
@@ -138,8 +153,10 @@
 		5A2FAD4E1D7D6F73007DECCB /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				123208DA24689F2200603C1A /* Extensions */,
 				5A2FAD501D7D6F73007DECCB /* FetchedResultsControllerControllerEntityObserver.swift */,
 				5A2FAD511D7D6F73007DECCB /* FetchedResultsControllerSectionObserver.swift */,
+				123208D424689E7100603C1A /* ManagedObjectContextNotificationObserver.swift */,
 				5A2FAD521D7D6F73007DECCB /* NSManagedObjectContext+Rx.swift */,
 				5A2FAD531D7D6F73007DECCB /* Persistable.swift */,
 			);
@@ -392,9 +409,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A2FAD561D7D6F73007DECCB /* FetchedResultsControllerSectionObserver.swift in Sources */,
+				123208DC24689F2200603C1A /* NSManagedObjectContext+Extensions.swift in Sources */,
 				5A2FAD551D7D6F73007DECCB /* FetchedResultsControllerControllerEntityObserver.swift in Sources */,
 				5A2FAD581D7D6F73007DECCB /* Persistable.swift in Sources */,
 				5A2FAD571D7D6F73007DECCB /* NSManagedObjectContext+Rx.swift in Sources */,
+				123208D624689E7100603C1A /* ManagedObjectContextNotificationObserver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +422,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F400B2C62040BED6003F5030 /* FetchedResultsControllerSectionObserver.swift in Sources */,
+				123208DD2468A03600603C1A /* ManagedObjectContextNotificationObserver.swift in Sources */,
 				F400B2C72040BED6003F5030 /* FetchedResultsControllerControllerEntityObserver.swift in Sources */,
 				F400B2C82040BED6003F5030 /* Persistable.swift in Sources */,
 				F400B2C92040BED6003F5030 /* NSManagedObjectContext+Rx.swift in Sources */,
@@ -414,6 +434,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F400B2D52040BEEA003F5030 /* FetchedResultsControllerSectionObserver.swift in Sources */,
+				123208DE2468A03700603C1A /* ManagedObjectContextNotificationObserver.swift in Sources */,
 				F400B2D62040BEEA003F5030 /* FetchedResultsControllerControllerEntityObserver.swift in Sources */,
 				F400B2D72040BEEA003F5030 /* Persistable.swift in Sources */,
 				F400B2D82040BEEA003F5030 /* NSManagedObjectContext+Rx.swift in Sources */,
@@ -425,6 +446,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F400B2E42040BEF4003F5030 /* FetchedResultsControllerSectionObserver.swift in Sources */,
+				123208DF2468A03800603C1A /* ManagedObjectContextNotificationObserver.swift in Sources */,
 				F400B2E52040BEF4003F5030 /* FetchedResultsControllerControllerEntityObserver.swift in Sources */,
 				F400B2E62040BEF4003F5030 /* Persistable.swift in Sources */,
 				F400B2E72040BEF4003F5030 /* NSManagedObjectContext+Rx.swift in Sources */,
